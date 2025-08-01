@@ -1,0 +1,65 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+.pipenv/
+
+# Arquivos de configuração do editor
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Banco de dados SQLite (se usado localmente)
+*.sqlite3
+
+# Configurações de ambiente
+.env
+.env.*
+
+# Arquivos criados por coletstatic (no Django)
+staticfiles/
+static/
+
+# Pastas de mídia (uploads locais)
+media/
+
+# Arquivos de migração (opcional — use com cuidado)
+# Se for ignorar, adicione: **/migrations/*.pyc e mantenha os `__init__.py`
+# **/migrations/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Coverage / testes
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
