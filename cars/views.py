@@ -16,3 +16,4 @@ def new_car_view(request):
         new_car_form = CarModelForm()
     
     return render(request, 'new_car.html', { 'new_car_form': new_car_form })
+
